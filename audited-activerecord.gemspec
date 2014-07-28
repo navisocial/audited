@@ -12,6 +12,7 @@ Gem::Specification.new do |gem|
   gem.license     = 'MIT'
 
   gem.add_dependency 'audited', gem.version
+  gem.add_dependency 'rails-observers', '~> 0.1.2'
   gem.add_dependency 'activerecord', '~> 4.0'
 
   gem.files         = `git ls-files lib`.split($\).grep(/(active_?record|generators)/)
